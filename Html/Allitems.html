@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/Css/AllItems.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/Photos/Lgo.png" alt="Beauty Items Logo">
+        </div>
+        <button id="menu-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Allitems.html">All Items</a></li>
+                <li class="contact-container">
+                    <a href="https://wa.me/96170347684" target="_blank">Contact</a>
+                </li>
+                <li class="search-container">
+                    <i class="fas fa-search" id="search-icon"></i>
+                    <input type="text" id="search-field" placeholder="Search...">
+                    <p id="search-message" class="search-message">Not found</p>
+                </li>
+                <li class="cart-container">
+                    <a href="#" id="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+                    <div id="cart-dropdown" class="cart-dropdown">
+                        <p id="cart-empty">No items added to the cart yet.</p>
+                        <ul id="cart-items"></ul>
+                        <button id="share-btn">Share Cart</button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="items-section">
+        <div class="section-title" id="beauty-glam">Cleaners & Toners</div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/foaming_cleanse.png" alt="Item Image">
+                    <h3>Gentle Foaming Cleanser</h3>
+                    <div class="price">$20.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Foaming cleanser offers all the benefits of cleansing with water
+                        completely clean face of impurities, gently moisturize and sooth 
+                        skin leave soft and supply eliminate bacteria on skin, eliminate 
+                        pimples and irritation, speed up skin’s metabolism, and improve
+                        blood circulation.
+                        Apply over the entire face, morning and evening, then gently 
+                        massage into the skin before rinsing.
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/cleansing_gel.png" alt="Item Image">
+                    <h3>Purifying Cleansing Gel</h3>
+                    <div class="price">$18.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> This purifying gel effectively traps impurities and dissolves excess oil, providing an intensive makeup removal and deep cleansing action. It leaves the skin feeling refreshed and thoroughly clean.</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/toning_lotion.png" alt="Item Image">
+                    <h3>Extra Comfort Toning Lotion</h3>
+                    <div class="price">$20.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> This oil-free toning lotion is perfect for oily skin, tightening pores and refining texture. It refreshes, reduces shine, and gives a matte finish.</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="section-title" id="beauty-glam">Exfoliants & Peels</div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/facial_peeling.png" alt="Item Image">
+                    <h3>Gentle Facial Peeling</h3>
+                    <div class="price">$18.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> Particularly recommended for sensitive skin- absorbs and lifts
+                        surface impurities, renews skin‘s surface. Maintains and protects
+                        a youthful appearance. With regular use, allows skin to "breath"
+                        better .
+                        Use once or twice a week on thoroughly cleansed skin.
+                </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/exfoliating scrub.png" alt="Item Image">
+                    <h3>Exfoliating Body Scrub</h3>
+                    <div class="price">$20.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span>This scrub has a light phylogenic texture with no sand-like particles; it 
+                        exfoliates, cleans, smoothes and stimulates cell renewal, highly efficient 
+                        over the elbows, knees, heels and back of the arms. recommended for 
+                        sensitive skin; this scrub gently lifts impurities and dead surface skin 
+                        and refines skin texture.
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title" id="beauty-glam">Masks</div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/anti-wrinkles.png" alt="Item Image">
+                    <h3>Anti-Wrinkle Mask</h3>
+                    <div class="price">$18.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> This mask is meant to cleanse exfoliate and unclog pores, regular 
+                        use reduce wrinkles, increase immunity, controls pigmentation 
+                        and gives your skin and amazing texture.
+                </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/plant-mask.png" alt="Item Image">
+                    <h3>Aromatic Plant Purifying Mask</h3>
+                    <div class="price">$20.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span>Creamy mask promotes immediately radiance and a fresher
+                        -looking complexion. Purifies, rebalances and tones skin. 
+                        provides optimal moisture with aromatic plants, helps alleviate 
+                        signs of stress and fatigue. Apply a thin layer of aromatic plant 
+                        purifying mask to face and neck, avoiding the eye contour area. 
+                        Leave on for 40 or 50 minutes then rinse off using cool water. 
+                        Follow with toning lotion. Use as often as desired.
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title" id="beauty-glam">Moisturizers & Creams</div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/hydra-creme.png" alt="Item Image">
+                    <h3>Hydra Cream SPF 15 </h3>
+                    <div class="price">$25.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Light weight silky texture prepares the skin to fight premature signs of aging and 
+                        creates a barrier against environmental factors and sun exposure. it gives smooth, 
+                        luminous, plump and radiant effect.
+                        Apply morning and evening giving your face and neck a gentle massage. 
+                        </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Night_creme.png" alt="Item Image">
+                    <h3>Anti-Wrinkle Night Cream </h3>
+                    <div class="price">$25.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Replenishes skin throughout .The night and delivers 
+                        firming, moisturizing and illuminating benefits. Optically
+                        reduces the appearance of wrinkles and shadowy areas
+                        as it restores skin's vibrancy.
+                        Apply evening time on clean skin to face, neck using light
+                        sweeping movements.
+                        </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/multi-active-creme.png" alt="Item Image">
+                    <h3>Multi Active Cream SPF 15 </h3>
+                    <div class="price">$25.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>A powerful and targeted early wrinkle control, radiance
+                        boosting, dermal and epidermal junction repair, 
+                        revitalizing, regenerating, moisturizing and protecting 
+                        cream.It offers a satin finish.
+                        Apply in the morning to the face and neck after our 
+                        extra comfort toning lotion.
+                        </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/perl_creme.png" alt="Item Image">
+                    <h3>Brightening Pearl Day 
+                        Cream </h3>
+                    <div class="price">$30.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Brightening pearl day cream contains 
+                        refreshing essence, and protection for 
+                        face during day time, reduces the appearance of surface dark spots, removes 
+                        freckles. Simply makes your face glow.
+                        Apply on clean face after purifying 
+                        cleansing gel.
+                        </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Collagen.png" alt="Item Image">
+                    <h3>Collagen</h3>
+                    <div class="price">$30.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Rich with vitamins b and c. It has a strong revitalizing 
+                        effect, away from surgery or injections. Amazing results! Apply once a day either in the morning or the 
+                        evening, to the face and neck. Ase before/under your
+                        usual moisturizer. It's strongly advised not to use any 
+                        type of peeling or steam before usage.</div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Anti-cellulite.png" alt="Item Image">
+                    <h3>Body Anti-cellulite Cream</h3>
+                    <div class="price">$30.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Apply in the morning and evening, with an upward sweeping movement, to areas
+                        that are pro-cellulite such as thighs, hips, and buttocks. you will feel a cooling
+                        sensation, which immediately tell you the cream is working. Enjoy a slimmer, 
+                        firmer and younger look.</p>
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Body_creme.png" alt="Item Image">
+                    <h3>Body Cream</h3>
+                    <div class="price">$35.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Body treatment offers pure hydration leave skin feeling satiny-soft and amazingly, appropriate for all skin tones – all year round. skin moisture and softness, keeps skin perfectly balanced.
+                        Apply daily to your body at anytime .wait a few minutes before dressing</p>
+                
+                </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/hand_lotion.png" alt="Item Image">
+                    <h3>Age Control Hand Cream </h3>
+                    <div class="price">$20.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Help ensure that your hands maintain their youthful beauty. Minimizes 
+                        existing age spots and helps prevent the appearance of new spots. 
+                        helps protect against drying effects of external factors (cold, harsh 
+                        water, etc.), deeper moisturizing into the basal skin layer. 
+                        use in the morning, evening, or at any time of the day, particularly in 
+                        sunny climates. 
+                        </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/foot_lotion.png" alt="Item Image">
+                    <h3>Age Control Foot Lotion </h3>
+                    <div class="price">$19.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Foot lotion protection in various weather conditions. help to ensure that your foots
+                        maintain their youthful beauty. minimizes existing age spots and helps prevent the
+                        appearance of new spots. helps protect against drying effects of external factors 
+                       (cold, harsh water, etc.), deeper moisturizing into the basal skin layer.
+                       Use daily work up lather with a small amount of product and spread 
+                       over damp skin.</div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Sunscreen.png" alt="Item Image">
+                    <h3>UV Plus Protective Day Screen
+                        SPF 40 </h3>
+                    <div class="price">$25.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>An ultra-protective day screen that helps protects skin against premature skin 
+                        aging, sensitivity and dark spots.
+                        Daily skin protection! an ultra-protective day screen acts like an invisible beauty
+                        bubble to help avoid premature skin aging, sensitivity and dark spots while 
+                        pollution and free radicals are blocked-out with White Tea Extract. Incredibly 
+                        lightweight texture is imperceptible to the touch.
+                        </div>
+            </div>
+        </div>
+        
+        <div class="section-title" id="beauty-glam">Serum & Treatments</div> 
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/skin_care_essentials/toning_lotion.png" alt="Item Image">
+                    <h3>Serum</h3>
+                    <div class="price">$30.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> Regeneration cells lift and renew skin challenged after start 
+                        using serum. Day after day, skin appears firmer smoother 
+                        and fine lines and wrinkles is reduced. After few weeks you
+                        will notice thereduction of the depth lines and wrinkles, 
+                        improvement in skin tone, increased skin luminosity and 
+                        skin firmness can be applied morning and/or evening as an 
+                        intensive treatment under your moisturizer.
+                </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Caviar_serum.png" alt="Item Image">
+                    <h3>Caviar Serum Set</h3>
+                    <div class="price">$60.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Formulated for sensitive skin affected by hormonal changes and aging. It revitalizes and firms skin overnight, reducing wrinkles and shadows while restoring vibrancy. Promotes a brighter, more even complexion. Apply every morning to a cleansed face after toning lotion for ten days. Then switch to the diamond treatment for the next ten days.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Diamond.png" alt="Item Image">
+                    <h3>Diamond Serum </h3>
+                    <div class="price">$60.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Diamond serum provides your skin with ant -aging care, fade away freckles,
+                        sun age and dark spots with this unique brightening essence, smoothes, 
+                        refreshing and whitening.</div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Anti_blemish.png" alt="Item Image">
+                    <h3>Anti-Blemish Gel</h3>
+                    <div class="price">$35.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Treatment for Sensitive Skin
+                        Formulated with ultra-smoothing natural plant extracts, this treatment soothes and reduces redness. It helps minimize red spots, maintains skin balance, and improves elasticity. It also helps prevent signs of aging.
+                        Can be used anytime during the day as needed for emergency relief.</p>
+                
+                </div>
+            </div>
+        </div>
+        
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Eye_Serum.png" alt="Item Image">
+                    <h3>Eye Serum </h3>
+                    <div class="price">$35.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Designed for mature skin to promote firmer, younger-looking eye contours. This gentle, non-oily gel minimizes puffiness and dark circles, moisturizes, and reduces wrinkles. It relieves dryness and improves the appearance of dark circles and swelling. Apply daily to cleansed eyes by dotting a small amount of gel around the eyes and gently patting until dry.</div>
+            </div>
+        </div>
+
+      
+         
+        <div class="section-title" id="beauty-glam">Eye Care</div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/MU_remover.png" alt="Item Image">
+                    <h3>Eye Makeup Remover </h3>
+                    <div class="price">$16.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Formulated to be as gentle as eye lotions. Help clear away melanin and 
+                        color spots, prevent the formation of spots. Promote the synthesis of 
+                        skin collagen.
+                        Use everyday to remove eye make-up.
+                        </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/eye_mask.png" alt="Item Image">
+                    <h3>Skin Smoothing<br> Eye Mask </h3>
+                    <div class="price">$17.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>This fragrance-free cream promotes smoother eye contours in few 
+                        minutes. Suitable for all types of eyes . Minimizes signs of fatigue, 
+                        puffiness and dark circles in few minutes, refresh the area around 
+                        the eyes. 
+                        Use it according to your need. </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/eye_contour_cream.png" alt="Item Image">
+                    <h3>Extra Firming Eye <br>
+                         Countour Cream</h3>
+                    <div class="price">$30.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>The most effective time is the night time to treat the nature skin to help 
+                        minimize the appearance of wrinkles, -helps diminish visible fine lines, 
+                        wrinkles and crow's feet., firms and tones skin.
+                        Apply preferably in the evening.</div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Hydration_&_repair/Eye_contour_gel.png" alt="Item Image">
+                    <h3>Eye Countour Gel </h3>
+                    <div class="price">$36.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p><span class="title">Description:</span>Non oily gel.
+                        Treatment can be used over make-up to maintain youthful-looking 
+                        Eye expressions. Product is suitable for those with sensitive eyes, 
+                        reduces puffiness, minimizes dark circles, moisturizes and tones the
+                        Eyelids, facilitates smooth make-up application. 
+                        Used anytime of the day</div>
+            </div>
+        </div>
+
+
+
+        <div class="section-title" id="beauty-glam">Makeup</div>
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/Liquid_foundation.png" alt="Item Image">
+                    <h3>Liquid Foundation</h3>
+                    <div class="price">$13.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Colors:</span> 
+                      <span style="color:sandybrown;">  SAND : LF01 </span><br>
+                       <span style="color:peachpuff;">PEACH :LF02 </span> <br>
+                        NATURAL : LF03 <br>
+                       <span style="color:chocolate;">CAPPUCCINO : LF04 </span> <br>
+                       <span style="color:brown;"> BRONZE  : LF05</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/CFoundation/Compact_natural.png" alt="Item Image">
+                    <h3>Compact Foundation</h3>
+                    <div class="price">$14.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Colors:</span> 
+                      Highlight: CF 29 <br>
+                      Natural: CF 14 <br>
+                      Ivory: CF 24 <br>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/CPowder/Cpowder_nat.png" alt="Item Image">
+                    <h3>Compact Powder</h3>
+                    <div class="price">$15.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> 
+                         PINK BEIGE: CP 011 <br>
+                         SAND :CP 02  <br>
+                         MATTE BRONZE: CP 03  <br>
+                         NATURAL: CP 07  <br>
+                         DARK BEIGE: CP 08
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/LoosePoweder_T.png" alt="Item Image">
+                    <h3>Loose powder</h3>
+                    <div class="price">$16.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> 
+                        LIGHT : LP 01
+                        TAN : LP 03
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/camo_blush/Camo_blusher_lp.png" alt="Item Image">
+                    <h3>Camouflage Blusher</h3>
+                    <div class="price">$14.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span>
+                        <span style="color:lightpink;"> LIGHT PINK:  B 01 </span><br>
+                        <span style="color:brown;"> SHIMMER BRONZE: B 02</span>  <br>
+                        <span style="color:pink;"> PINK : B 07</span>  <br>
+                       <span style="color:salmon;">  SALMON: B 09 </span><br> 
+                        <span style="color:orange;">ORANGE: B 19 </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/concealer/RC_nat.png" alt="Item Image">
+                    <h3>Repairing Concealer</h3>
+                    <div class="price">$15.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> 
+                         SAND:C 01 <br>
+                         PINK BEIGE: C 02  <br>
+                         NATURAL: C 04  <br>
+                         DARK BEIGE: C 06
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/MascaraVolume.png" alt="Item Image">
+                    <h3>Maskara</h3>
+                    <div class="price">$15.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> 
+                        MASKARA VOLUME: M01 <br>
+                        MASKARA DOUBLE VOLUME : M02
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/Liquid_EyeLiner.png" alt="Item Image">
+                    <h3>Liquid Eyeliner</h3>
+                    <div class="price">$11.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> 
+                        BLACK LQ 01
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/kohl.png" alt="Item Image">
+                    <h3>Kohl EyeLiner</h3>
+                    <div class="price">$8.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span>
+                        White: EP02 <br>
+                        Metallic Green: EP 03 <br>
+                        Metallic Bronze: EP 04 <br>
+                        Brown :EP 05 <br>
+                        PURPLE: EP 06 <br>
+                        Metallic Silver: EP 08 <br>
+                        Metallic Blue : EP 08 <br>
+                        Black: EP 09 
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/eyeshadow/Eyeshadow_W.png" alt="Item Image">
+                    <h3>EYE SHADOW</h3>
+                    <div class="price">$10.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> White: EM 63 <br>
+                      <span style="color:pink;">  Pink Beige: EM 178 </span><br>
+                      <span style="color:beige;"> Beige : EM 179</span>  <br>
+                      <span style="color: orange;">  Orange: EM 129 </span><br>
+                      <span style="color: pink;"> Pink: EM 135   </span> <br>
+                      <span style="color: purple;">  Purple: EM 161 </span><br>
+                       Pistachio : EM 144 <br>
+                       <span style="color: grey;"> Grey : EM 165 <br></span>
+                       <span style="color: brown;"> Brown : EM 104 </span><br>
+                       <span style="color: black;"> Black: EM 141</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/Lipgloss.png" alt="Item Image">
+                    <h3>Lip Gloss</h3>
+                    <div class="price">$6.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> LG 01: TRANSPARENT <br>
+                        LG 02: RED <br>
+                        LG 03: PINK <br>
+                        LG 04: FUCHSIA <br>
+                        LG 05: BABY PINK <br>
+                        LG 06: BEIGE
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/lipstick/Lip_red.png" alt="Item Image">
+                    <h3>LIPSTICK PANS</h3>
+                    <div class="price">$7.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span>GLOSSY FUCHSIA: LS 01 <br>
+                        PINK BEIGE : LS 02 <br>
+                        MATTE FUCHSIA : LS 03  <br>
+                        ORANGE: LS 04  <br>
+                        PINK : LS 05  <br>
+                        RED : LS 06  <br>
+                        AUBERGINE : LS 07 <br>
+                        BEIGE : LS 08
+                </div>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-inner">
+                <div class="item-front">
+                    <img src="/website_photos/ph.charol/Beauty_&_glam/Lip_liner.png" alt="Item Image">
+                    <h3>LIP CONTOUR</h3>
+                    <div class="price">$6.00</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="item-back">
+                    <p> <span class="title">Description:</span> 
+                        LC 01 : HOT RED <br>
+                        LC 02 : PLUM    <br>
+                        LC 03 : Natural 
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Beauty Items Store. All Rights Reserved.</p>
+        <div class="contact-info">
+            <a href="https://www.instagram.com/phcharol.phroc.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:phcharol.spain@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/96170347684" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p>HK International Marketing Group LTD / National Marketing</p>
+    </footer>
+    
+</body>
+<script src="/js/allitems.js"></script>
+</html>
